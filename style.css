@@ -146,7 +146,7 @@ body {
 }
 
 .button:active {
-    background-color: #212121;
+    box-shadow: none;
 }
 
 .pagination {
