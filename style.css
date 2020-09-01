@@ -350,10 +350,14 @@ body {
     display: inline;
 }
 
-.trending-products__foto {
+.trending-products__item {
     width: 370px;
     height: 370px;
     margin-bottom: 30px;
+}
+
+.image__link:hover {
+    opacity: 0.7;
 }
 
 .trending__menu {
@@ -551,4 +555,14 @@ form {
 .trending--height {
     height: 585px;
     margin-bottom: 120px;
+}
+
+.arrow__hover {
+    opacity: 0;
+}
+.explore:hover .arrow__hover {
+    opacity: 1;
+}
+.button:hover .arrow__hover {
+    opacity: 1;
 }
